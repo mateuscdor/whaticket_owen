@@ -26,7 +26,7 @@ const Copyright = () => {
     <Typography variant="body2" color="textSecondary" align="center">
       © {new Date().getFullYear()}
       {" - "}
-      <Link color="inherit" href="https://owenzap.com">
+      <Link color="inherit" href="https://simplesvoip.com.br">
         Simples Voip
       </Link>
       {"."}
