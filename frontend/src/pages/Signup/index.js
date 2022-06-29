@@ -28,7 +28,6 @@ import { i18n } from "../../translate/i18n";
 import api from "../../services/api";
 import toastError from "../../errors/toastError";
 
-import { versionSystem } from "../../../package.json";
 import logo from '../../assets/logo.png';
 
 const Copyright = () => {
@@ -36,8 +35,8 @@ const Copyright = () => {
 		<Typography variant="body2" color="textSecondary" align="center">
 			© {new Date().getFullYear()}
 			{" - "}
-			<Link color="inherit" href="https://owenzap.com">
-                             OwenZap - v {versionSystem}
+			<Link color="inherit" href="https://simplesvoip.com.br">
+                             Simples Voip
 			</Link>
 			{"."}
 		</Typography>
