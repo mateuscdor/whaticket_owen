@@ -25,7 +25,6 @@ import { AuthContext } from "../context/Auth/AuthContext";
 import BackdropLoading from "../components/BackdropLoading";
 import { i18n } from "../translate/i18n";
 import logo from "../assets/logo.png";
-import { versionSystem } from "../../package.json";
 
 const drawerWidth = 240;
 
@@ -220,7 +219,7 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            OwenZap - v { versionSystem }
+            Simples Voip
             
           </Typography>
 
