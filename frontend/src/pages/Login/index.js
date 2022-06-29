@@ -19,7 +19,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { i18n } from "../../translate/i18n";
 
 import { AuthContext } from "../../context/Auth/AuthContext";
-import { versionSystem } from "../../../package.json";
 import logo from '../../assets/logo.png';
 
 const Copyright = () => {
@@ -28,7 +27,7 @@ const Copyright = () => {
       © {new Date().getFullYear()}
       {" - "}
       <Link color="inherit" href="https://owenzap.com">
-        OwenZap - v {versionSystem}
+        Simples Voip
       </Link>
       {"."}
     </Typography>
